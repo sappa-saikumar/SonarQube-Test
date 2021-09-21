@@ -15,21 +15,6 @@
 		</dependency>
 	</dependencies>
 	
-	<profiles>
-		<profile>
-			<id>sonar</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<properties>
-				<!-- Optional URL to server. Default value is http://localhost:9000 -->
-				<sonar.host.url>
-					http://192.168.0.103:9000/myserver
-				</sonar.host.url>
-			</properties>
-		</profile>
-	</profiles>
-
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -47,5 +32,3 @@
 		</pluginManagement>
 	</build>
 </project>
-
- 
